@@ -10,7 +10,14 @@ namespace Lab7
     {
         
         List<int> list = new List<int>(10);
-        
+        public void Push() 
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                list.Add(i);
+            }
+
+        }
         public void Pop()
         {
             Console.WriteLine("Введите элемент для удаления");
